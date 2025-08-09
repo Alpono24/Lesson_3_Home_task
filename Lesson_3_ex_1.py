@@ -16,6 +16,9 @@ print(" ")
 print("The sum of three numbers is equal to: ", first_number + second_number + third_number)
 print("The difference of three numbers is equal to: ", first_number - second_number - third_number)
 print("The product of three numbers is equal to: ", first_number * second_number * third_number)
-print("The first number minus the second number and plus the third number is equal to: ", first_number - second_number + third_number)
-print("The result of dividing the product of two numbers by the third number is equal to: ", (first_number * second_number) / third_number)
-print("The remainder of dividing the sum of the first two numbers by the third is equal to: ", (first_number + second_number) % third_number)
+print("The first number minus the second number and plus the third number is equal to: ",
+      first_number - second_number + third_number)
+print("The result of dividing the product of two numbers by the third number is equal to: ",
+      round(((first_number * second_number) / third_number),2))
+print("The remainder of dividing the sum of the first two numbers by the third is equal to: ",
+      (first_number + second_number) % third_number)
